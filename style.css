@@ -716,16 +716,33 @@ img {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 480px) {
-    .hero-btns {
-        flex-direction: column;
+
+    .logo {
+        font-size: 1rem;
     }
 
-    .btn {
-        width: 100%;
+    .logo img {
+        width: 35px;
+        height: 35px;
     }
 
-    .section-padding {
-        padding: 60px 0;
+    .hire-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .navbar {
+        padding: 10px 15px;
     }
 }
